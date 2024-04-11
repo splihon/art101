@@ -1,5 +1,13 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
-
+h1{
+  color: #0a452e;
+  font-size: 200%;
+}
+p{
+  font-family: "comic sans";
+  text-indent: 20px;
+  margin-left: 10px;
+}
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;
