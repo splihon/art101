@@ -1,9 +1,4 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
-.my-lab2-screenshot {
-  margin: 10px;
-  max-width: 500px;
-}
-
 h1 {
   color: #0a452e;
   font-size: 200%;
@@ -23,6 +18,11 @@ p {
   margin: 10px;
   /* border: solid 1px #888; */
   font-size: 20px;
+}
+
+.my-lab2-screenshot {
+  margin: 10px;
+  max-width: 500px;
 }
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
