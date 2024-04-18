@@ -1,5 +1,5 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
-h1 {
+/* h1 {
   color: #0a452e;
   font-size: 200%;
 }
@@ -17,8 +17,8 @@ p {
   padding: 10px;
   margin: 10px;
   /* border: solid 1px #888; */
-  font-size: 20px;
-}
+  /* font-size: 20px;
+} */ 
 
 .my-lab2-screenshot {
   margin: 10px;
