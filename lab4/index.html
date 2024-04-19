@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding and Problem-Solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,24 +23,95 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem-Solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The Challenge of this lab was to create a psuedocode for an everyday task and a psuedocode for a simple computer game.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>We had a bit of a difficult time when it came to organize the list so that it would not look like one big paragraph. But we solved this by useing li and ul.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>This challenge went well, we spent some time trying our best to understand the specifics in the instructions and then following them to the best of our ability so hopefully all it is following his directions. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+					<p>Baking a Cake</p>
+						<ol>
+							<li>Preheat the oven to 350 degrees Fahrenheit</li>
+							<li>Gather Ingredients:
+								<ul>
+									<li>Flour, sugar, baking powder, salt, eggs, milk, oil, vanilla extract</li>
+								</ul>
+							</li>
+							<li>Mix Dry Ingredients:
+								<ul>
+									<li>Flour, Sugar, Baking Powder, and Salt in a large mixing bowl</li>
+									<li>Mix thoroughly to blend ingredients together</li>
+								</ul>
+							</li>
+							<li>Mix Wet Ingredients:
+								<ul>
+									<li>In another bowl, crack the eggs</li>
+									<li>Add milk, oil, and vanilla extract</li>
+									<li>Whisk until the mixture is smooth</li>
+								</ul>
+							</li>
+							<li>Combine Wet and Dry ingredients:
+								<ul>
+									<li>Pour the wet mixture into the bowl with the dry ingredients</li>
+									<li>Mix until the batter is smooth and there are no lumps</li>
+								</ul>
+							</li>
+							<li>Prepare Baking Pan:
+								<ul>
+									<li>Grease the baking pan with non-stick spray</li>
+								</ul>
+							</li>
+							<li>Pour batter into Pan</li>
+							<li>Bake the Cake:
+								<ul>
+									<li>Place the pan in the preheated oven</li>
+									<li>Bake for 25 to 30 minutes</li>
+								</ul>
+							</li>
+							<li>Remove Cake from the Oven</li>
+
+					<p>Hangman</p>
+							<pre><code>
+  // Select a random word
+  // Set the number of maximum attempts (e.g., 6)
+  // Create an empty list to store guessed letters
+  // Set the game state to "in progress"
+
+  // Main game loop
+  // While the game is in progress:
+  //     Display the hangman ASCII art corresponding to the number of incorrect guesses
+  //     Display the current state of the word with underscores for unguessed letters and the correctly guessed letters
+  //     Display the letters that have already been guessed
+  //     Prompt the player to guess a letter
+  //     Validate the input:
+  //         If the input is not a single letter or has already been guessed, display an error message and ask for input again
+  //     If the guessed letter is in the word:
+  //         Update the word display to reveal the guessed letter(s)
+  //     Else:
+  //         Decrement the number of remaining attempts
+  //         If the remaining attempts reach 0:
+  //             Set the game state to "lost" and break out of the loop
+  //     If all letters in the word have been guessed:
+  //         Set the game state to "won" and break out of the loop
+
+  // Display the game outcome
+  // If the game state is "won":
+  //     Display a congratulatory message
+  // Else:
+  //     Display a message indicating the correct word and that the player lost
+							</pre></code>
 					<div id="output"></div>
 			</div>
 		</section>
