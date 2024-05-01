@@ -9,7 +9,7 @@ function sortUserName(){
     var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
     console.log("userName =", userName);
     //split string to array
-    var nameArray = userNmae.split('');
+    var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
     //sort the array
     var nameArraySort = nameArray.sort();
@@ -26,11 +26,11 @@ function sortUserName(){
 document.writeln("Oh hey, I've fixed your name: ",
     sortUserName(), "</br>");
 
-function main() {
-    console.log("Main function started.");
-   // the code that makes everything happen
- }
+// function main() {
+//     console.log("Main function started.");
+//    // the code that makes everything happen
+//  }
 
- // let's get this party started
-  main();
+//  // let's get this party started
+//   main();
     
