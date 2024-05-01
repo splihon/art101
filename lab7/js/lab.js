@@ -25,4 +25,12 @@ function sortUserName(){
 // Output
 document.writeln("Oh hey, I've fixed your name: ",
     sortUserName(), "</br>");
+
+function main() {
+    console.log("Main function started.");
+   // the code that makes everything happen
+ }
+
+ // let's get this party started
+  main();
     
