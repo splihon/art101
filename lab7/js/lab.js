@@ -31,13 +31,33 @@ function sortNameIgnoringSpaces(userName) {
     return cleanedName;
 }
 
-//Ask for user's name once
-var userName = window.prompt("Enter your name:");
+// Ask for user's name once
+var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
 
-//Using user's name in both functions
+// Using the user's name in both functions
 var sortedName = sortUserName(userName);
 var cleanedAndSortedName = sortNameIgnoringSpaces(userName);
 
-// Output
-document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br>");
+// Output the sorted names
+document.writeln("Oh hey, I've fixed your name: ", sortedName, "<br>");
+document.writeln("Sorted name without spaces:", cleanedAndSortedName, "<br>");
+
+// Optionally, you can also console log the cleaned and sorted name
+console.log("Sorted name without spaces:", cleanedAndSortedName);
+
+
+// function sortNameIgnoringSpaces(userName) {
+//     var cleanedName = userName.replace(/\s/g, '').split('').sort().join('');
+//     return cleanedName;
+// }
+
+// //Ask for user's name once
+// var userName = window.prompt("Enter your name:");
+
+// //Using user's name in both functions
+// var sortedName = sortUserName(userName);
+// var cleanedAndSortedName = sortNameIgnoringSpaces(userName);
+
+// // Output
+// document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br>");
 
