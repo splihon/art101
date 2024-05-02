@@ -4,17 +4,17 @@
 
 // Constants
 
-// Functions
-
-// Functions
-
 // Function to sort user's name
 function sortUserName(userName) {
+    // var userName = window.prompt("Hi, Please tell me your name so I can fix it.");
     console.log("userName =", userName);
+    //split string to array
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
+    //sort the array
     var nameArraySort = nameArray.sort();
     console.log("nameArraySort =", nameArraySort);
+    //join array back to a string
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
     return nameSorted;
