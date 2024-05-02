@@ -5,16 +5,17 @@
 // Constants
 
 // Functions
+//Function to sort user's name
 function sortUserName(){
     var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
     console.log("userName =", userName);
-    //split string to array
+    //Split string to array
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
-    //sort the array
+    //Sort the array
     var nameArraySort = nameArray.sort();
     console.log("nameArraySort =", nameArraySort);
-    //join array back to a string
+    //Join array back to a string
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
     //Note the above lines could have been written as one line"
@@ -22,18 +23,21 @@ function sortUserName(){
     return nameSorted;
 }
 
-// Output
-document.writeln("Oh hey, I've fixed your name: ",
-    sortUserName(), "</br>");
-
-//bonus code for bonus task
+//Bonus code for bonus task
 //Ignore/Omit Spaces
-//Function should remove all spaces using a regular expression before sorting the characters of the name 
+//Function to sort user's name ignoring spaces
 function sortNameIgnoringSpaces(userName) {
     var cleanedName = userName.replace(/\s/g, '').split('').sort().join('');
     return cleanedName;
 }
 
+//Ask for user's name once
 var userName = window.prompt("Enter your name:");
-var result = sortNameIgnoringSpaces(userName);
-console.log("Sorted name without spaces:", result);
+
+//Using user's name in both functions
+var sortedName = sortUserName(userName);
+var cleanedAndSortedName = sortNameIgnoringSpaces(userName);
+
+// Output
+document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br>");
+
