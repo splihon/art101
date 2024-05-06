@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 2 HTML & CSS Starter
+// Author: Segolen Plihon
+// Date: April 17, 2024
 
 // Constants
 

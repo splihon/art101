@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Homepage Getting Started
+// Author: Getting Started
+// Date: April 8, 2024
 
 // Constants
 
