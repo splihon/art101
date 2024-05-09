@@ -6,9 +6,6 @@ $(document).ready(function(){
 //Your map results data
 var mapResults = "Your map results here";
 
-//Use jQuery to select the element by its ID and set the HTML content
-$("#output").html(mapResults);
-
 console.log("If this shows in the concole, jQuery is loaded and running!");
 
 });
@@ -37,4 +34,9 @@ var squaredResults = numbersArray.map(function(x){
 });
 
 console.log("Squared Results: ", squaredResults);
+
+//Use jQuery to select the element by its ID and set the HTML content
+$("#output").append(result);
+$("#output").append(squaredResults);
+//html code to add new line
 
