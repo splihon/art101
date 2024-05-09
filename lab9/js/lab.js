@@ -30,5 +30,5 @@
 //Bonus task code:
 $('.special-section').append("<button>Make Special</button>")
 .find("button").click(function(){
-    $(this).parent().toggleClass('special');
-})
+    $(this).parent().toggleClass('special')
+});
