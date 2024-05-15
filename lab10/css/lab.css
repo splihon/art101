@@ -1,0 +1,38 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
+}
+
+/*Light beige background*/
+#output {
+  background-color: #ecead5;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  max-width: 60%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  color: black;
+}
+
+/*Gray Bubble*/
+.text-left {
+  background-color: #751414;
+  align-self: flex-start;
+}
+
+/*Green Bubble*/
+.text-right{
+  background-color: #90EE90;
+  align-self: flex-end;
+}
