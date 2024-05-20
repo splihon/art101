@@ -18,11 +18,6 @@ $(document).ready(function() {
         // Append a new div to our output div with the sorted name
         $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
     });
-
-    // Event listener for checking anagrams
-    $("#check-anagram").click(function() {
-        $("#anagram-output").html('<div class="text"><p>' + '"' + input1 + '" and "' + input2 + '" ' + result + '</p></div>');
-    });
 });
 
 $(document).ready(function() {

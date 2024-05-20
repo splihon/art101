@@ -22,25 +22,3 @@ $(document).ready(function() {
         $("#output").append('<div class="text ' + newClass + '"><p>' + newText + '</p></div>');
     });
 });
-/* Common styles for text bubbles /
-.text {
-    max-width: 60%;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 10px;
-    word-wrap: break-word;
-    color: black;
-}
-
-/ Grey Bubble /
-.text-left {
-    background-color: #4b4848;
-    color: white; / Ensure text is readable on dark background /
-    align-self: flex-start; / Align to the left /
-}
-
-/ Green Bubble /
-.text-right {
-    background-color: #51d751;
-    color: black; / Ensure text is readable on light background /
-    align-self: flex-end; / Align to the right */
