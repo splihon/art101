@@ -1,0 +1,14 @@
+/* Add CSS styles for the output area */
+#output {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#left-column, #right-column {
+  flex: 1;
+  padding: 10px;
+}
+.output-item {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
