@@ -1,20 +1,17 @@
-// index.js - Functions
+// lab.js - Functions
 // Author: Segolen Plihon
 // Date: 5/1/24
 
-// Constants
-
-// Function to sort user's name
+// Function to sort user's name case-insensitively
 function sortUserName(userName) {
-    // var userName = window.prompt("Hi, Please tell me your name so I can fix it.");
     console.log("userName =", userName);
-    //split string to array
+    // Split string to array
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
-    //sort the array
+    // Sort the array
     var nameArraySort = nameArray.sort();
     console.log("nameArraySort =", nameArraySort);
-    //join array back to a string
+    // Join array back to a string
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
     return nameSorted;
@@ -33,9 +30,13 @@ var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
 var sortedName = sortUserName(userName);
 var cleanedAndSortedName = sortNameIgnoringSpaces(userName);
 
-// Output the sorted names
-document.writeln("Oh hey, I've fixed your name: ", sortedName, "<br>");
-document.writeln("Sorted name without spaces:", cleanedAndSortedName, "<br>");
+// Output the sorted names above the image
+document.getElementById('sorted-name').innerText = "Oh hey, I've fixed your name: " + sortedName;
+document.getElementById('sorted-name-no-spaces').innerText = "Sorted name without spaces: " + cleanedAndSortedName;
 
-// Optionally, you can also console log the cleaned and sorted name
+// Output the sorted name on top of the image
+document.getElementById('name-on-sticker').innerText = sortedName;
+
+// Optionally, you can also console log the names
+console.log("Sorted name:", sortedName);
 console.log("Sorted name without spaces:", cleanedAndSortedName);

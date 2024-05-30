@@ -1,10 +1,30 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
-
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
- .minor-section {
-    padding: 10px;
+.minor-section {
+  padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: #DDD8C4;
 }
+
+.sticker-container {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.sticker {
+  max-width: 200px;
+  display: block;
+}
+
+.output-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
+}
+
